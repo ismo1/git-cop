@@ -7,6 +7,7 @@ module Git
         def self.defaults
           {
             enabled: false,
+            severity: :error,
             minimum: 1
           }
         end
